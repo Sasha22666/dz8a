@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Изображения</title>
+</head>
+
+<body>
+    <style>
+        div.imagess {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .imagess img.image1 {
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
+
+        .imagess img.image2 {
+            position: absolute;
+            left: 200px;
+            top: 0px;
+        }
+
+        .imagess img.image4 {
+            position: absolute;
+            left: 100px;
+            top: 200px;
+        }
+
+        .imagess img.image3 {
+            position: absolute;
+            left: 72px;
+            top: 72px;
+            z-index: 1;
+        }
+
+        img.image1:hover {
+            z-index: 2;
+        }
+
+        img.image2:hover {
+            z-index: 2;
+        }
+
+        img.image4:hover {
+            z-index: 2;
+        }
+    </style>
+    <p>Запрет на курение &mdash; указание, запрещающее курение табака и подобных изделий при определённых условиях. В
+        разных странах действуют различные ограничения и штрафы. Запрет на курение может быть объявлен владельцем
+        помещения или закреплён в законодательстве страны.</p>
+    
+        <div class="imagess">
+            <img src="biohazard.png" class="image1">
+            <img src="Man-and-woman.png" class="image2">
+            <img src="No_smoking.png" class="image3">
+            <img src="Yin_and_Yang.png" class="image4">
+        </div>
+
+    <p>Основными целями запрета на курение являются пожарная безопасность и защита здоровья некурящих. К прочим же можно
+        отнести сохранение чистоты помещений и большую производительность некурящих работников.</p>
+</body>
+
+</html>
